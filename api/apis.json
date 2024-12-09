@@ -1,0 +1,67 @@
+{
+    "Server Running Test": {
+        "Test": "https://guardianbankingsolutions.net"
+    },
+    "Signup & Login": {
+        "Signup": "https://guardianbankingsolutions.net/user/signup",
+        "Log in": "https://guardianbankingsolutions.net/user/login",
+        "Forgot Password": "https://guardianbankingsolutions.net/user/forgotPassword",
+        "Reset Password": "https://guardianbankingsolutions.net/user/resetPassword/:token"
+    },
+    "Operator": {
+        "Operator Profile": "https://guardianbankingsolutions.net/applicant/profile",
+        "Operator Profile Update": "https://guardianbankingsolutions.net/applicant/profile/update",
+        "Operator Password Update": "https://guardianbankingsolutions.net/applicant/profile/password",
+        "Fill Application": "https://guardianbankingsolutions.net/applicant/form",
+        "Update Application": "https://guardianbankingsolutions.net/applicant/form/update/:applicationID",
+        "Delete Application": "https://guardianbankingsolutions.net/applicant/form/delete/:applicationID",
+        "Applications List": "https://guardianbankingsolutions.net/applicant/formList",
+        "Application Details": "https://guardianbankingsolutions.net/applicant/Oneoperatorform/:applicationID",
+        "Proposal List": "https://guardianbankingsolutions.net/applicant/proposal/:applicationID",
+        "Proposal Details": "https://guardianbankingsolutions.net/applicant/proposal/:applicationID/:proposalID",
+        "Bank Details": "https://guardianbankingsolutions.net/applicant/proposal/bankDetails/:applicationID/:proposalID",
+        "Approve Proposal": "https://guardianbankingsolutions.net/applicant/proposal/accept/:applicationID/:proposalID",
+        "Decline Proposal": "https://guardianbankingsolutions.net/applicant/proposal/decline/:applicationID/:proposalID",
+        "Operator Dashboard": "https://guardianbankingsolutions.net/applicant/dashboard",
+        "Operator Documentation": "https://guardianbankingsolutions.net/applicant/document",
+        "Operator Upload Documents": "https://guardianbankingsolutions.net/applicant/document/upload"
+    },
+    "Bank": {
+        "Bank Profile": "https://guardianbankingsolutions.net/bank/profile",
+        "Bank Profile Update": "https://guardianbankingsolutions.net/bank/profile/update",
+        "Bank Password Update": "https://guardianbankingsolutions.net/bank/profile/password",
+        "Bank Settings Fill Up": "https://guardianbankingsolutions.net/bank/settings/fillup",
+        "Bank Settings Update": "https://guardianbankingsolutions.net/bank/settings/update",
+        "Bank Settings Details": "https://guardianbankingsolutions.net/bank/settings/Details",
+        "Matching Applications": "https://guardianbankingsolutions.net/bank/matchingApplications",
+        "Matching Application Details": "https://guardianbankingsolutions.net/bank/matchingApplications/details/:id",
+        "Get Accepted Applications": "https://guardianbankingsolutions.net/bank/acceptedApplications",
+        "Accepting Application": "https://guardianbankingsolutions.net/bank/acceptApplication",
+        "Declineing Application": "https://guardianbankingsolutions.net/bank/declineApplication",
+        "Get Declined Applications": "https://guardianbankingsolutions.net/bank/declinedApplications",
+        "Send Proposal": "https://guardianbankingsolutions.net/bank/sendproposal/:id",
+        "Proposal Details": "https://guardianbankingsolutions.net/bank/getSentProposal/:id",
+        "Underwriting": "https://guardianbankingsolutions.net/bank/underwriting/:id",
+        "Account Open": "https://guardianbankingsolutions.net/bank/account/open/:id",
+        "Account Decline": "https://guardianbankingsolutions.net/bank/account/decline/:id",
+        "Bank Dashboard": "https://guardianbankingsolutions.net/bank/dashboard",
+        "Services Offered": "https://guardianbankingsolutions.net/bank/servicesOffered",
+        "View Application POST": "https://guardianbankingsolutions.net/bank/viewApplication",
+        "viewed Applications GET": "https://guardianbankingsolutions.net/bank/viewedApplications"
+    },
+    "Admin": {
+        "Admin signup": "https://guardianbankingsolutions.net/admin/signup",
+        "Admin login": "https://guardianbankingsolutions.net/admin/login",
+        "Admin profile": "https://guardianbankingsolutions.net/admin/profile",
+        "Admin profile update": "https://guardianbankingsolutions.net/admin/profile/update",
+        "Admin profile update password": "https://guardianbankingsolutions.net/admin/profile/password",
+        "Admin forgotPassword": "https://guardianbankingsolutions.net/admin/forgotPassword",
+        "Admin resetPassword": "https://guardianbankingsolutions.net/admin/resetPassword/:token",
+        "Admin banks": "https://guardianbankingsolutions.net/admin/banks",
+        "Admin banks Payment Stage": "https://guardianbankingsolutions.net/admin/banks/paymentStage/:id",
+        "Admin banks Activate": "https://guardianbankingsolutions.net/admin/banks/activate/:id",
+        "Admin banks Report": "https://guardianbankingsolutions.net/admin/banks/reports",
+        "Admin operators": "https://guardianbankingsolutions.net/admin/operators",
+        "Non US Applications": "https://guardianbankingsolutions.net/admin/application/nonUS"
+    }
+}
